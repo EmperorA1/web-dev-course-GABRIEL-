@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Animation in css</title>
+ <style>
+@keyframes draw{
+    0%{background-color: red;}
+    25%{background-color: whitesmoke; color:red font-size: 32px}
+    50%{background-color: green; font-size: 100;}
+    75%{background-color: blue; color: white; font-size: 25px;}
+    100%{background-color: orange;}
+}
+
+#div1{
+     width: 140px;
+     height: 100px;
+     background-color: red;
+     border: 7px dotted black;
+     animation-name: draw;
+     animation-duration: 4s;
+     animation-iteration-count: infinite;
+   }
+ </style>
+</head>
+<body>
+    <div id="div1">Nice to see you</div>
+</body>
+</html>

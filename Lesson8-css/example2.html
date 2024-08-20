@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <style>
+   @keyframes draw{
+     0%{background-color: red; }
+     25%{background-color: yellow; color: red; font-size: 32px;}
+     50%{background-color: green;}
+     75%{background-color: blue; color: white; font-size: 25px;}
+     100%{background-color: purple;}
+   }
+
+   
+   #div{
+     width: 140px;
+     height: 100px;
+     background-color: red;
+     border: 7px dotted black;
+     animation-name: draw;
+     animation-duration: 4s;
+     animation-iteration-count: infinite;
+   }
+ </style>
+</head>
+
+<body>
+  <div id="div">Hello</div>
+</body>
+
+</html>

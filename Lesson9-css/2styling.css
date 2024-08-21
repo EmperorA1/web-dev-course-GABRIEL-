@@ -1,0 +1,16 @@
+#b1{
+    width: fit-content;
+    margin-bottom: 25px;
+    border: 2px dotted red;
+    color: rgb(0, 18, 216);
+    background-color: yellow;
+}
+#b2{
+    width: fit-content;
+    margin-bottom: 25px;
+    border: 2px solid red;
+    color: white;
+    background-color:blue;
+    font-size: 30px;
+    transform: rotateX(180deg);
+}

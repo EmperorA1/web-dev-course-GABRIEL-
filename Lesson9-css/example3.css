@@ -1,0 +1,21 @@
+h1{
+    width:fit-content;
+    height:100px;
+    background-color: lightskyblue;
+    text-decoration: overline;
+    text-transform: uppercase;
+    text-decoration-color: red;
+  }
+  h2{
+    text-decoration: line-through;
+    text-transform: lowercase;
+  
+  }
+  h3{
+    text-decoration: underline;
+    text-transform: capitalize;
+  }
+  
+  h4{
+    text-decoration: underline overline;
+  }

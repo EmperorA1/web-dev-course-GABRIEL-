@@ -1,0 +1,25 @@
+#A1{
+  color: red;  
+  font-style: italic;
+}
+#A2{
+   font-size: 20px;
+   color: aqua; 
+}
+#A3{
+    color: violet;
+    font-family: monospace;
+    font-size: 15px;
+}
+#A4{
+    background-color: chartreuse;
+    color: red;
+}
+#A5{
+    color: gold;
+    background-color: blue;
+}
+#A6{
+    font-size: 30px;
+    color: blueviolet;
+}

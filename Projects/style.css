@@ -1,0 +1,20 @@
+section{
+    text-align: right;
+    font-style: italic;
+    color: aqua;
+}
+h2{
+    color: gold;
+}
+#a1{
+    color: red;
+    font-style: normal;
+}
+.a1{
+    color: purple;
+    font-style: italic;
+}
+h3,h4{
+    color: pink;
+    font-size: 40px;
+}

@@ -1,0 +1,27 @@
+h1{
+    color: rgb(5, 192, 255);
+}
+body{
+    background-color: black;
+    color: rgb(176, 169, 169);
+}
+p:not(:first-of-type){
+    text-decoration: underline;
+    text-decoration-color: rgba(6, 241, 131, 0.84);
+}
+ul li::before{content: "🚀";}
+ul li:nth-child(3){background-color: tomato;
+color: rgb(14, 244, 99);}
+ul li:hover{color: blue;}
+a::after{content: "🌌";
+}
+a{
+    text-decoration: none
+    ;
+}
+a:hover{color: red;}
+p::first-letter{
+    font-size: 200%;
+    color: tomato;
+}
+

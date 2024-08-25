@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo Element Projects</title>
+    <style>
+    h1{ color: rgb(154, 10, 10)}  
+    body{background-color: black;
+        color: rgb(176, 169, 169);}
+    ul li::before{content:"💻" ;}
+    ul li:nth-child(3){background-color: blue;}
+    ul li:nth-child(6){background-color: blue} 
+    p:not(:first-of-type){
+        text-decoration: underline;
+        text-decoration-color: rgb(12, 193, 66);
+        font-style: italic;
+    }   
+    a:hover{color: red;}
+    a::after{content:"🌌" ;}
+    ul li:hover{color:red}
+    p::first-letter{
+    font-size: 200%;
+    color: tomato;
+    </style>
+</head>
+<body>
+    <h1>Welcome to A1 Coding Classes</h1>
+    Hello there, welcome to A1-coding we offer coding classes for
+    all ages, genders and cred. <br>
+    Our coding activities include:
+    <ul>
+        <li>Web Development</li>
+        <li>Scratch-Programming/</li>
+        <li>Python-for-Kids/></li>
+        <li>Game-Development/</li>
+        <li>AP-Computer-Science</li>
+        <li>IOI-Algorithms-Course/</li>
+    </ul>
+    <P>
+        Coding tells a machine which actions to perform and how
+        to complete tasks. Programming languages provide the 
+        rules for building websites, apps, and other 
+        computer-based technologies.
+    </P>
+    <p>Here at A1-coding we help individuals to acquire the
+       neccessary skills to relate well in the society and be
+       able to fend for themselves in the larger society. 
+    </p>
+    Don't miss the opportunity to be part of this great
+    community.Contact us. <br>
+    <a href="#">Get Started</a>
+    <a href="#">Latest coding Languate</a>
+    <a href="#">The world of Coding</a>
+</body>
+</html>

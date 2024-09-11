@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrollspy</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>   
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+</head>
+<body>
+   <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading1">First</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading2">Second</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+  <h4 id="scrollspyHeading1">First heading</h4>
+  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, perferendis! Eveniet odit corrupti maiores dolore iusto quis dolor facilis quia nostrum molestiae, ut voluptate nobis tenetur cumque consequuntur modi rem?</p>
+  <h4 id="scrollspyHeading2">Second heading</h4>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum ut Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, explicabo. Facilis molestiae beatae deserunt amet et maxime quas quidem temporibus id dolore porro nulla ut, nemo dignissimos est fuga magni? voluptatem illo reiciendis ullam deserunt alias similique sint. Itaque quisquam laboriosam facilis illo recusandae soluta illum ratione molestias perspiciatis nemo.</p>
+  <h4 id="scrollspyHeading3">Third heading</h4>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, sapiente, numquam voluptas tempore accusamus eaque blanditiis maiores inventore in veritatis harum assumenda. Sequi est, assumenda porro accusamus molestiae labore explicabo.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum natus minus modi deleniti aspernatur fuga sint dolorem alias. Quos officiis veritatis voluptatibus sit id, recusandae repellendus facere quam totam expedita?
+  </p>
+  <h4 id="scrollspyHeading4">Fourth heading</h4>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit at cupiditate placeat nihil quis fugit aperiam est nam animi tenetur. Nisi vel est exercitationem aliquid fuga. Aperiam numquam optio doloribus! 
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quo itaque magni ipsam, iste consectetur aut earum quaerat ratione perferendis suscipit iure distinctio, ab totam dolorem at optio autem vero!
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni cupiditate neque debitis deleniti nemo expedita itaque soluta sequi consectetur quaerat corporis consequatur provident doloribus at, exercitationem dolores veniam ullam accusantium.
+  </p>
+  <h4 id="scrollspyHeading5">Fifth heading</h4>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit quisquam voluptatum autem impedit quam fuga sit, iste fugit! Natus cum accusantium ipsum expedita repudiandae maiores nulla nemo ipsam! Beatae, totam.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat sed distinctio atque unde cumque veritatis deserunt, aliquam non, incidunt aut explicabo, quo pariatur eaque! Inventore eveniet debitis odio perferendis earum!
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus id quas suscipit nobis quae, sit nam vitae debitis, facere voluptate, odit repudiandae molestias commodi accusantium alias eius voluptates et quo.
+  </p>
+</div> 
+</body>
+</html>

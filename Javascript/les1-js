@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+<h1 id="myH"></h1>
+
+<p id="myP"></p>
+
+<script>
+var a,b,c;     a=12; b=15; c=a+b;
+// My heading:
+
+document.getElementById("myH").innerHTML = "JavaScript Comments";
+
+// My paragraph:
+
+document.getElementById("myP").innerHTML = "sum="+c;
+
+</script>
+
+</body>
+
+</html>

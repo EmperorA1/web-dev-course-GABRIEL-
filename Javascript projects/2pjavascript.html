@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undefined Function</title>
+</head>
+<body>
+    <h1>Undefined functions</h1>
+    <p id="a1">The code below will show you what you need
+       to do when only one parameter is given in a statement
+    </p>
+    <button onclick="myfunction(6)">Execute Instruction</button>
+    <script>
+        function myfunction(a, b)
+        {
+            if (b===undefined)
+{
+                b=5;
+            }
+            document.write(a*b);
+        }
+    </script>
+</body>
+</html>

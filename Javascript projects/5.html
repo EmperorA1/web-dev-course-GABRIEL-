@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ <h1>A Javascript Project</h1>
+  <h2>Javascript project on objects data structure and array</h2>
+  <script>
+    var student={
+      name:'Gabriel',
+      age:'16',
+      gender:'male',
+      grade:'11',
+      hobbies:'reading,gaming',
+      fav_sport:'football'
+    };
+    var color=['red','blue','green','black','orange',];
+    document.write("student name is :"+student.name+"<br>", "student favourite sport is :"+student.fav_sport +"<br>");
+    document.write("Before popping the colors are: "+color.join("*")+"<br>");
+    document.write("My favourite color is: "+color[3]+"<br>");
+    color.pop();
+    document.write("After popping the colors are: "+color.join("*")+"<br>");
+  </script>
+  
+</body>
+
+</html>
